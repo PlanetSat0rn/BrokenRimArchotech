@@ -1,0 +1,4 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BrokenRim\1.5\Assemblies\BrokenRim.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BrokenRim\Source\BrokenRim\BrokenRim\obj\Debug\BrokenRim.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BrokenRim\Source\BrokenRim\BrokenRim\obj\Debug\BrokenRim.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BrokenRim\Source\BrokenRim\BrokenRim\obj\Debug\BrokenRim.dll

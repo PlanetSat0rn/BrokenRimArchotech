@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Broken Rim: Archotech</name>
+    <author>PlanetSat0rn</author>
+    <packageId>planetsaturnium.brokenrimarchotech</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+	        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Biotech</displayName>
+        </li>
+        <li>
+            <packageId>planetsaturnium.brokenrim</packageId>
+            <displayName>Broken Rim Core</displayName>
+        </li>
+		<li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+        </li>
+		<li>
+		<packageId>erdelf.humanoidalienraces</packageId>
+		<displayName>Humanoid Alien Races</displayName>
+		</li>
+    </modDependencies>
+    <loadAfter>
+        <li>planetsaturnium.brokenrim</li>
+		<li>erdelf.humanoidalienraces</li>
+    </loadAfter>
+    <description>The Archotech expansion of Broken Rim. Includes Archopawns and etc.</description>
+</ModMetaData>

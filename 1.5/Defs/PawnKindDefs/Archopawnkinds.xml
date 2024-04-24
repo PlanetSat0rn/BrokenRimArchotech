@@ -1,0 +1,66 @@
+<Defs>
+<PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>ArchopawnColonist</defName>
+    <label>archopawn colonist</label>
+    <race>Archopawn</race>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <initialResistanceRange>13~21</initialResistanceRange>
+</PawnKindDef>
+<PawnKindDef ParentName="TraderBase">
+    <defName>ArchopawnTrader</defName>
+    <label>archopawn trader</label>
+    <race>Archopawn</race>
+    <defaultFactionType>LostArchotechs</defaultFactionType>
+    <initialResistanceRange>12~20</initialResistanceRange>
+</PawnKindDef>
+<PawnKindDef ParentName="VillagerBase">
+    <defName>ArchopawnVillager</defName>
+    <label>archopawn villager</label>
+    <race>Archopawn</race>
+    <defaultFactionType>LostArchotechs</defaultFactionType>
+    <initialResistanceRange>12~20</initialResistanceRange>
+</PawnKindDef>
+<PawnKindDef ParentName="GuardBase">
+    <defName>ArchopawnGuard</defName>
+    <label>archopawn guard</label>
+    <race>Archopawn</race>
+    <defaultFactionType>LostArchotechs</defaultFactionType>
+    <initialResistanceRange>12~20</initialResistanceRange>
+</PawnKindDef>
+<PawnKindDef>
+    <defName>ItisPawnKind</defName>
+    <label>deathwalker</label>
+    <race>TrueArchopawn</race>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+	    <combatPower>1000</combatPower>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <apparelMoney>20000~20000</apparelMoney>
+    <apparelTags>
+      <li>SpacerMilitary</li>
+    </apparelTags>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>99999~99999</weaponMoney>
+    <weaponTags>
+      <li>ItisWeaponTag</li>
+    </weaponTags>
+    <techHediffsMoney>99999~99999</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <techHediffsChance>0.40</techHediffsChance>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>18~18</range>
+      </li>
+    </skills>
+    <initialWillRange>99~99</initialWillRange>
+    <initialResistanceRange>24~40</initialResistanceRange>
+</PawnKindDef>
+</Defs>

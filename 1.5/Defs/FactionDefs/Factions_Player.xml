@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerStrays</defName>
+    <label>Strays</label>
+    <description>A small tribe of strays.</description>
+    <isPlayer>true</isPlayer>
+    <categoryTag>Tribal</categoryTag>
+    <pawnSingular>tribesman</pawnSingular>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <basicMemberKind>Tribesperson</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+    </disallowedPrecepts>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>SpecializedXenotypes/FactionIcons/Strays</factionIconPath>
+    <settlementTexturePath>SpecializedXenotypes/FactionIcons/Strays</settlementTexturePath>
+    <forageabilityFactor>1.7</forageabilityFactor>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>TribalStart</li>
+      <li>TribalStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+  </FactionDef>
+
+   <FactionDef ParentName="PlayerFactionBase">
+    <defName>Playerchitinskin</defName>
+    <label>Banished Chitinskins</label>
+    <description>A group of banished Chitinskins.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+   <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerArchotech</defName>
+    <label>New Archotechs</label>
+    <description>A group of archotechs.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind Inherit="False">ArchopawnColonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Archotech</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Sophian</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

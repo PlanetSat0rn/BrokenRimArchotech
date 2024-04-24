@@ -1,0 +1,18 @@
+<Defs>
+  <TraitDef>
+    <defName>BR_ExtremelyTough</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>extremely tough</label>
+        <description>{PAWN_nameDef} has incredibly thick skin, really dense flesh, and plasteel bones. {PAWN_pronoun} takes WAY much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill.</description>
+        <statFactors>
+          <IncomingDamageFactor>0.05</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>Toughness</li>
+    </exclusionTags>
+  </TraitDef>
+</Defs>

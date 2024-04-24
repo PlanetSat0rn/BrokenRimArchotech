@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenRim", "BrokenRim\BrokenRim.csproj", "{B5309295-BFE8-4AEE-9799-5FAD462359EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5309295-BFE8-4AEE-9799-5FAD462359EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5309295-BFE8-4AEE-9799-5FAD462359EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5309295-BFE8-4AEE-9799-5FAD462359EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5309295-BFE8-4AEE-9799-5FAD462359EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4A2111D-0E58-4459-A787-F520E034BFAE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs> 
+  <XenotypeDef>
+    <defName>AbandonedArchopawn</defName>
+    <label>abandoned archopawn</label>
+    <description>They have been left behind after the Archotechs ascended. They have knowledge on almost everything and are quite good at crafting. They have a never seen before gene that makes them more stable. The event of the Archotechs leaving is still on their minds. A mental reminder that they weren't accepted.</description>
+    <descriptionShort>They have knowledge on almost everything and are quite good at crafting. They have a never seen before gene that makes them more stable.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>ArchotechMetabolism</li>
+			<li>DiseaseFree</li>
+			<li>PerfectImmunity</li>
+			<li>TotalHealing</li>
+			<li>WoundHealing_Slow</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>Mood_Pessimist</li>
+			<li>Aggression_DeadCalm</li>
+			<li>LowSleep</li>
+			<li>Pain_Reduced</li>
+			<li>Libido_Low</li>
+			<li>Sterile</li>
+			<li>Learning_Fast</li>
+			<li>AptitudeStrong_Crafting</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+		</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>MindwipedArchopawn</defName>
+    <label>mind-wiped archopawn</label>
+    <description>These Archotechs seem to have forgotten what they were before the Archotechs ascended. Although they may not have as much knowledge. They are still willing to learn and have the capability to be what they truly want to be.</description>
+    <descriptionShort>Although they may not have as much knowledge. They are still willing to learn and have the capability to be what they truly want to be.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>ArchotechMetabolism</li>
+			<li>DiseaseFree</li>
+			<li>PerfectImmunity</li>
+			<li>TotalHealing</li>
+			<li>WoundHealing_Slow</li>
+			<li>PsychicAbility_Enhanced</li>
+			<li>Aggression_DeadCalm</li>
+			<li>KindInstinct</li>
+			<li>LowSleep</li>
+			<li>Pain_Reduced</li>
+			<li>Libido_Low</li>
+			<li>Sterile</li>
+			<li>Learning_Fast</li>
+			<li>AptitudeStrong_Plants</li>
+			<li>AptitudeStrong_Medicine</li>
+			<li>AptitudeStrong_Social</li>
+		</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>Archocaster</defName>
+    <label>archocaster</label>
+    <description>These Archotechs are able to use psycasts but they don't learn as fast.</description>
+    <descriptionShort>These Archotechs are able to use psycasts but they don't learn as fast.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>ArchotechMetabolism</li>
+			<li>DiseaseFree</li>
+			<li>PerfectImmunity</li>
+			<li>TotalHealing</li>
+			<li>WoundHealing_Slow</li>
+			<li>SX_InnatePsylink</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>Mood_Pessimist</li>
+			<li>Aggression_DeadCalm</li>
+			<li>LowSleep</li>
+			<li>Pain_Reduced</li>
+			<li>Libido_Low</li>
+			<li>Sterile</li>
+			<li>AptitudeStrong_Crafting</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+		</genes>
+  </XenotypeDef>
+  </Defs>

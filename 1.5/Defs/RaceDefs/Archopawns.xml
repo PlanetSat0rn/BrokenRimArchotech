@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="Human" Name="ArchopawnBase">
+		<defName>Archopawn</defName>
+		<label>Archopawn</label>
+		<description>A basic Archopawn. More specifically, an archotech machine that looks like a human. They are often Archotechs that got denied from ascension. They don't sleep.</description>
+		    <statBases>
+      <MarketValue>6450</MarketValue>
+      <MoveSpeed>5</MoveSpeed>
+      <ComfyTemperatureMin>4</ComfyTemperatureMin>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <LeatherAmount>0</LeatherAmount>
+      <RoyalFavorValue>7</RoyalFavorValue>
+	  <Flammability>0</Flammability>
+    </statBases>
+	<race>
+	
+	<needsRest>false</needsRest>
+	            <bloodDef>Filth_ArchoBlood</bloodDef>
+            <bloodSmearDef>Filth_ArchoBloodSmear</bloodSmearDef>
+	<bleedRateFactor>0.5</bleedRateFactor>
+      <hasMeat>false</hasMeat>
+      <baseHealthScale>1.6</baseHealthScale>
+	</race>
+		<alienRace>
+		    <graphicPaths>
+				<skinShader>Cutout</skinShader>
+				<body>BrokenRim/Humanlike/Pawn/Archopawns/Body/</body>
+				<head>BrokenRim/Humanlike/Pawn/Archopawns/Head/</head>
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<generalSettings>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToAge>true</immuneToAge>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>Empire</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+				<alienPartGenerator>
+				<headTypes Inherit="False">
+					<li>Male_AverageNormal</li>
+					<li>Female_AverageNormal</li>
+				</headTypes>
+				<bodyTypes Inherit="False">
+					<li>Male</li>
+					<li>Female</li>
+				</bodyTypes>
+				<colorChannels>
+  <li>
+    <name>skin</name>
+    <first Class="ColorGenerator_Single">
+      <color>RGB(173,174,147)</color>
+    </first>
+    <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+      <colorChannel>skin_1</colorChannel>
+    </second>
+  </li>
+  </colorChannels>
+				</alienPartGenerator>
+			</generalSettings>
+			<raceRestriction>
+				<xenotypeList>
+					<li>AbandonedArchopawn</li>
+					<li>MindwipedArchopawn</li>
+					<li>Archocaster</li>
+				</xenotypeList>
+                <blackGeneTags>
+                    <li>SkinColor</li>
+                    <li>SkinColorOverride</li>
+                </blackGeneTags>
+                <blackEndoCategories>
+                    <li>Melanin</li>
+                </blackEndoCategories>
+				<canReproduce>false</canReproduce>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+			</raceRestriction>
+			    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+<relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+<relationChanceModifierFiance>0</relationChanceModifierFiance>
+<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+<relationChanceModifierParent>0</relationChanceModifierParent>
+<relationChanceModifierChild>0</relationChanceModifierChild>
+<relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+	
+	<AlienRace.ThingDef_AlienRace ParentName="ArchopawnBase">
+			<defName>TrueArchopawn</defName>
+		<label>True Archopawn</label>
+		<description>An Archopawn that should be feared.</description>
+		<alienRace>
+		<generalSettings>
+		<forcedRaceTraitEntries>
+  <li>
+    <defName>BR_ExtremelyTough</defName>
+    <chance>100</chance>
+  </li>
+</forcedRaceTraitEntries>
+</generalSettings>
+</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

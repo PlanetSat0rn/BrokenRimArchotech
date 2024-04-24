@@ -1,0 +1,84 @@
+<Defs>
+<AlienRace.AlienBackstoryDef>
+  <defName>UnknownArchopawnBackstory</defName>
+  <slot>Childhood</slot>
+  <title>unknown</title>
+  <titleShort>unknown</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn of unknown origins.</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+  <defName>PersonaArchopawnBackstory</defName>
+  <slot>Childhood</slot>
+  <title>unknown</title>
+  <titleShort>unknown</titleShort>
+  <description>[PAWN_nameDef] was a Persona Archopawn created during the Archotech Renaissance .</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Intelligence>4</Intelligence>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+  <defName>ManufacturerArchopawnBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>manufacturer</title>
+  <titleShort>manufacturer</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that worked for a glitterworld company to manufacture rare materials.</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Crafting>6</Crafting>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+  <defName>MedicArchopawnBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>Archotech Doctor</title>
+  <titleShort>doctor</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that performed medical acts with precision in a glitterworld.</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Medical>8</Medical>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+  <defName>SoldierArchopawnBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>soldier</title>
+  <titleShort>soldier</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that was recruited during a war after the Archotech Renaissance.</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Ranged>7</Ranged>
+  <Melee>7</Melee>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+  <defName>ItisBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>insane archopawn</title>
+  <titleShort>insane</titleShort>
+  <description>[PAWN_nameDef] was a True Archopawn that went through many trials. He went insane in a ship failure and went on a violent rampage.</baseDesc>
+  <skillGains>
+  <Melee>12</Melee>
+</skillGains>
+<forcedTraits>
+  <Psychopath>0</Psychopath>
+</forcedTraits>
+<shuffleable>false</shuffleable>
+</AlienRace.AlienBackstoryDef>
+</Defs>

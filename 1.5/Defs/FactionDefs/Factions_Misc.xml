@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+ <FactionDef ParentName="OutlanderFactionBase">
+    <defName>LostArchotechs</defName>
+    <label>lost archotechs</label>
+    <description>These people seem to be originated from archotechs.</description>
+    <colorSpectrum>
+      <li>(210, 215, 86)</li>
+      <li>(210, 215, 86)</li>
+    </colorSpectrum>
+	    <backstoryFilters Inherit="False">
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+        <commonality>1</commonality>
+      </li>
+    </backstoryFilters>
+	<techLevel>Archotech</techLevel>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>10</configurationListOrderPriority>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <AbandonedArchopawn>0.2</AbandonedArchopawn>
+		<MindwipedArchopawn>0.9</MindwipedArchopawn>
+		<Archocaster>0.025</Archocaster>
+      </xenotypeChances>
+    </xenotypeSet>
+	 <caravanTraderKinds Inherit="False">
+	       <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Archotech_ArchotechGoods</li>
+    </caravanTraderKinds>
+
+	 <pawnGroupMakers Inherit="False">
+      <li>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <ArchopawnVillager>10</ArchopawnVillager>
+          <ArchopawnGuard>40</ArchopawnGuard>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ArchopawnVillager>20</ArchopawnVillager>
+          <Town_Guard>10</Town_Guard>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <ArchopawnTrader>1</ArchopawnTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <ArchopawnVillager>7</ArchopawnVillager>
+          <ArchopawnGuard>20</ArchopawnGuard>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <ArchopawnVillager>14</ArchopawnVillager>
+          <ArchopawnGuard>40</ArchopawnGuard>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>
