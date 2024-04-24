@@ -1,0 +1,13 @@
+<Defs>
+  <ThoughtDef>
+    <defName>ArchopawnLeftBehind</defName>
+    <workerClass>BrokenRimArchotech.Archopawn_ThoughtWorker</workerClass>
+    <stages>
+      <li>
+       <label>Left Behind</label>
+       <description>My own people left me behind during ascension...</description>
+       <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

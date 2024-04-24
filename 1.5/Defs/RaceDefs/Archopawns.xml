@@ -12,6 +12,9 @@
       <LeatherAmount>0</LeatherAmount>
       <RoyalFavorValue>7</RoyalFavorValue>
 	  <Flammability>0</Flammability>
+	  <PsychicSensitivity>2</PsychicSensitivity>
+	  <ResearchSpeedFactor>3</ResearchSpeedFactor>
+	  <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
     </statBases>
 	<race>
 	
@@ -81,7 +84,6 @@
 			<raceRestriction>
 				<xenotypeList>
 					<li>AbandonedArchopawn</li>
-					<li>MindwipedArchopawn</li>
 					<li>Archocaster</li>
 				</xenotypeList>
                 <blackGeneTags>

@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRim\\Source\\BrokenRim\\",
+  "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRimArchotech\\Source\\BrokenRim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\brokenrim\\source\\brokenrim\\brokenrim\\archopower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|solutionrelative:brokenrim\\archopower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\brokenrim\\source\\brokenrim\\brokenrim\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|solutionrelative:brokenrim\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\brokenrimarchotech\\source\\brokenrim\\brokenrim\\archopawn_thoughtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5309295-BFE8-4AEE-9799-5FAD462359EB}|BrokenRim\\BrokenRim.csproj|solutionrelative:brokenrim\\archopawn_thoughtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Archopower.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRim\\Source\\BrokenRim\\BrokenRim\\Archopower.cs",
-              "RelativeDocumentMoniker": "BrokenRim\\Archopower.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRim\\Source\\BrokenRim\\BrokenRim\\Archopower.cs",
-              "RelativeToolTip": "BrokenRim\\Archopower.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAwwDUAAAAVAAAA",
+              "Title": "Archopawn_ThoughtWorker.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRimArchotech\\Source\\BrokenRim\\BrokenRim\\Archopawn_ThoughtWorker.cs",
+              "RelativeDocumentMoniker": "BrokenRim\\Archopawn_ThoughtWorker.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRimArchotech\\Source\\BrokenRim\\BrokenRim\\Archopawn_ThoughtWorker.cs",
+              "RelativeToolTip": "BrokenRim\\Archopawn_ThoughtWorker.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:49:07.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Test.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRim\\Source\\BrokenRim\\BrokenRim\\Test.cs",
-              "RelativeDocumentMoniker": "BrokenRim\\Test.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\BrokenRim\\Source\\BrokenRim\\BrokenRim\\Test.cs",
-              "RelativeToolTip": "BrokenRim\\Test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T08:57:58.904Z",
+              "WhenOpened": "2024-04-24T10:50:15.955Z",
               "EditorCaption": ""
             }
           ]

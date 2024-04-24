@@ -4,7 +4,7 @@
   <slot>Childhood</slot>
   <title>unknown</title>
   <titleShort>unknown</titleShort>
-  <description>[PAWN_nameDef] was an Archopawn of unknown origins.</baseDesc>
+  <description>[PAWN_nameDef] was an Archopawn of unknown origins.</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
@@ -15,12 +15,12 @@
   <slot>Childhood</slot>
   <title>unknown</title>
   <titleShort>unknown</titleShort>
-  <description>[PAWN_nameDef] was a Persona Archopawn created during the Archotech Renaissance .</baseDesc>
+  <description>[PAWN_nameDef] was a Persona Archopawn created during the Archotech Renaissance .</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
 <skillGains>
-  <Intelligence>4</Intelligence>
+  <Intellectual>4</Intellectual>
 </skillGains>
 </AlienRace.AlienBackstoryDef>
 
@@ -29,7 +29,7 @@
   <slot>Adulthood</slot>
   <title>manufacturer</title>
   <titleShort>manufacturer</titleShort>
-  <description>[PAWN_nameDef] was an Archopawn that worked for a glitterworld company to manufacture rare materials.</baseDesc>
+  <description>[PAWN_nameDef] was an Archopawn that worked for a glitterworld company to manufacture rare materials.</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
@@ -42,8 +42,8 @@
   <defName>ArchitectArchopawnBackstory</defName>
   <slot>Adulthood</slot>
   <title>architect</title>
-  <titleShort>arcitect</titleShort>
-  <description>[PAWN_nameDef] was an Archopawn that constructed buildings during the Archotech Renaissance.</baseDesc>
+  <titleShort>architect</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that constructed buildings during the Archotech Renaissance.</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
@@ -57,12 +57,12 @@
   <slot>Adulthood</slot>
   <title>Archotech Doctor</title>
   <titleShort>doctor</titleShort>
-  <description>[PAWN_nameDef] was an Archopawn that performed medical acts with precision in a glitterworld.</baseDesc>
+  <description>[PAWN_nameDef] was an Archopawn that performed medical acts with precision in a glitterworld.</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
 <skillGains>
-  <Medical>8</Medical>
+  <Medicine>8</Medicine>
 </skillGains>
 </AlienRace.AlienBackstoryDef>
 
@@ -71,12 +71,12 @@
   <slot>Adulthood</slot>
   <title>soldier</title>
   <titleShort>soldier</titleShort>
-  <description>[PAWN_nameDef] was an Archopawn that was recruited during a war after the Archotech Renaissance.</baseDesc>
+  <description>[PAWN_nameDef] was an Archopawn that was recruited during a war after the Archotech Renaissance.</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
 </spawnCategories>
 <skillGains>
-  <Ranged>7</Ranged>
+  <Shooting>7</Shooting>
   <Melee>7</Melee>
 </skillGains>
 </AlienRace.AlienBackstoryDef>
@@ -86,7 +86,7 @@
   <slot>Adulthood</slot>
   <title>insane archopawn</title>
   <titleShort>insane</titleShort>
-  <description>[PAWN_nameDef] was a True Archopawn that went through many trials. He went insane in a ship failure and went on a violent rampage.</baseDesc>
+  <description>[PAWN_nameDef] was a True Archopawn that went through many trials. He went insane in a ship failure and went on a violent rampage.</description>
   <skillGains>
   <Melee>12</Melee>
 </skillGains>
