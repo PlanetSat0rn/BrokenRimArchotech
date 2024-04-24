@@ -39,6 +39,20 @@
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef>
+  <defName>ArchitectArchopawnBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>architect</title>
+  <titleShort>arcitect</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that constructed buildings during the Archotech Renaissance.</baseDesc>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Construction>9</Construction>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
   <defName>MedicArchopawnBackstory</defName>
   <slot>Adulthood</slot>
   <title>Archotech Doctor</title>

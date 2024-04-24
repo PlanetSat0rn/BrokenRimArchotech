@@ -5,6 +5,13 @@
     <race>Archopawn</race>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <initialResistanceRange>13~21</initialResistanceRange>
+	    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
 </PawnKindDef>
 <PawnKindDef ParentName="TraderBase">
     <defName>ArchopawnTrader</defName>
@@ -12,6 +19,13 @@
     <race>Archopawn</race>
     <defaultFactionType>LostArchotechs</defaultFactionType>
     <initialResistanceRange>12~20</initialResistanceRange>
+		    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
 </PawnKindDef>
 <PawnKindDef ParentName="VillagerBase">
     <defName>ArchopawnVillager</defName>
@@ -19,6 +33,28 @@
     <race>Archopawn</race>
     <defaultFactionType>LostArchotechs</defaultFactionType>
     <initialResistanceRange>12~20</initialResistanceRange>
+		    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+</PawnKindDef>
+<PawnKindDef ParentName="VillagerBase">
+    <defName>ArchopawnLeader</defName>
+    <label>archopawn leader</label>
+    <race>Archopawn</race>
+    <defaultFactionType>LostArchotechs</defaultFactionType>
+    <initialResistanceRange>12~20</initialResistanceRange>
+		    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+	<factionLeader>true</factionLeader>
 </PawnKindDef>
 <PawnKindDef ParentName="GuardBase">
     <defName>ArchopawnGuard</defName>
@@ -26,6 +62,13 @@
     <race>Archopawn</race>
     <defaultFactionType>LostArchotechs</defaultFactionType>
     <initialResistanceRange>12~20</initialResistanceRange>
+		    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
 </PawnKindDef>
 <PawnKindDef>
     <defName>ItisPawnKind</defName>
