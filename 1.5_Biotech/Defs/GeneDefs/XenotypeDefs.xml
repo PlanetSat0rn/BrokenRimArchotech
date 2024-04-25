@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs> 
   <XenotypeDef>
-    <defName>AbandonedArchopawn</defName>
-    <label>abandoned archopawn</label>
-    <description>They have been left behind after the Archotechs ascended. They have knowledge on almost everything and are quite good at crafting. They have a never seen before gene that makes them more stable. The event of the Archotechs leaving is still on their minds. A mental reminder that they weren't accepted.</description>
-    <descriptionShort>They have knowledge on almost everything and are quite good at crafting. They have a never seen before gene that makes them more stable.</descriptionShort>
+    <defName>BasicArchopawn</defName>
+    <label>basic archopawn</label>
+    <description>It is a basic Archopawn. There is nothing else to it.</description>
+    <descriptionShort>It is a basic Archopawn.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
     <inheritable>false</inheritable>
     <chanceToUseNameMaker>1</chanceToUseNameMaker>

@@ -23,7 +23,7 @@
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
     <xenotypeSet Inherit="False">
       <xenotypeChances>
-        <AbandonedArchopawn>0.98</AbandonedArchopawn>
+        <BasicArchopawn>0.98</BasicArchopawn>
 		<Archocaster>0.025</Archocaster>
       </xenotypeChances>
     </xenotypeSet>

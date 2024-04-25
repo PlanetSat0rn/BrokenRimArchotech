@@ -83,7 +83,7 @@
 			</generalSettings>
 			<raceRestriction>
 				<xenotypeList>
-					<li>AbandonedArchopawn</li>
+					<li>BasicArchopawn</li>
 					<li>Archocaster</li>
 				</xenotypeList>
                 <blackGeneTags>
