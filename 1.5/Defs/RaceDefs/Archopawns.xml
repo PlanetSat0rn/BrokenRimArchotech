@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="Human" Name="ArchopawnBase">
 		<defName>Archopawn</defName>
 		<label>Archopawn</label>
-		<description>A basic Archopawn. More specifically, an archotech machine that looks like a human. They are often Archotechs that got denied from ascension. They don't sleep.</description>
+		<description>A basic Archopawn. More specifically, an archotech machine that looks like a human. They are often Archotechs that got denied from ascension.</description>
 		    <statBases>
       <MarketValue>6450</MarketValue>
       <MoveSpeed>5</MoveSpeed>
@@ -13,7 +13,7 @@
       <RoyalFavorValue>7</RoyalFavorValue>
 	  <Flammability>0</Flammability>
 	  <PsychicSensitivity>2</PsychicSensitivity>
-	  <ResearchSpeedFactor>3</ResearchSpeedFactor>
+	  <ResearchSpeedOffset>200</ResearchSpeedOffset>
 	  <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
     </statBases>
 	<race>

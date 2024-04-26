@@ -13,8 +13,8 @@
 <AlienRace.AlienBackstoryDef>
   <defName>PersonaArchopawnBackstory</defName>
   <slot>Childhood</slot>
-  <title>unknown</title>
-  <titleShort>unknown</titleShort>
+  <title>persona archopawn</title>
+  <titleShort>persona</titleShort>
   <description>[PAWN_nameDef] was a Persona Archopawn created during the Archotech Renaissance .</description>
   <spawnCategories>
   <li>ArchopawnBackstories_General</li>
