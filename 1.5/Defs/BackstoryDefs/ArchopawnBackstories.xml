@@ -39,6 +39,20 @@
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef>
+  <defName>FarmerArchopawnBackstory</defName>
+  <slot>Adulthood</slot>
+  <title>farmer</title>
+  <titleShort>farmer</titleShort>
+  <description>[PAWN_nameDef] was an Archopawn that worked on sowing and harvesting plants.</description>
+  <spawnCategories>
+  <li>ArchopawnBackstories_General</li>
+</spawnCategories>
+<skillGains>
+  <Plants>6</Plants>
+</skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
   <defName>ArchitectArchopawnBackstory</defName>
   <slot>Adulthood</slot>
   <title>architect</title>

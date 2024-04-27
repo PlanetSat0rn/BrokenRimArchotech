@@ -1,0 +1,28 @@
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>ArchotechShard</defName>
+    <label>archotech shard</label>
+    <description>A purified form of the shard. It's required for any meaningful progress into archotechnology.</description>
+    <graphicData>
+      <texPath>Archotech/Things/ArchotechShard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <genericMarketSellable>false</genericMarketSellable>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

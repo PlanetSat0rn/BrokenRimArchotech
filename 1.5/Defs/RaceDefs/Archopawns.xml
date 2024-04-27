@@ -109,6 +109,9 @@
 <relationChanceModifierSibling>0</relationChanceModifierSibling>
     </relationSettings>
 		</alienRace>
+		<killedLeavingsRanges>
+      <ArchotechShard>0~1</ArchotechShard>
+    </killedLeavingsRanges>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<AlienRace.ThingDef_AlienRace ParentName="ArchopawnBase">
