@@ -13,7 +13,7 @@
       <RoyalFavorValue>7</RoyalFavorValue>
 	  <Flammability>0</Flammability>
 	  <PsychicSensitivity>2</PsychicSensitivity>
-	  <ResearchSpeedOffset>200</ResearchSpeedOffset>
+	  <ResearchSpeedFactor>3</ResearchSpeedFactor>
 	  <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
     </statBases>
 	<race>
