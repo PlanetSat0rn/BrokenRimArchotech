@@ -1,0 +1,64 @@
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="BaseArchotechWeapon_Sharp">
+  <techLevel>Archotech</techLevel>
+	<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseArchotechWeapon_Sharp">
+  <defName>ArchotechScythe</defName>
+  <label>archotech scythe</label>
+  <description>A scythe made by the archotechs. The archotech shard helps with properly aiming the swing.</description>
+  <weaponTags>
+      <li>ArchotechMelee</li>
+    </weaponTags>
+  <graphicData>
+            <texPath>Archotech/Things/ArchotechScythe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplet</shaderType>
+        </graphicData>
+		<costList>
+      <ArchotechShard>1</ArchotechShard>
+    </costList>
+  <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>1</Mass>
+        </statBases>
+		<uiIconScale>1.2</uiIconScale>
+  <tools>
+            <li>
+                <label>blade</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>28</power>
+                <cooldownTime>1</cooldownTime>
+            </li>
+	  <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+        </tools>
+		<costStuffCount>60</costStuffCount>
+		<relicChance>1</relicChance>
+		<equippedStatOffsets>
+		<PlantWorkSpeed>1</PlantWorkSpeed>
+		<MeleeHitChance>6</MeleeHitChance>
+		</equippedStatOffsets>
+		<recipeMaker>
+	<recipeUsers Inherit="False">
+	<li>TableMachining</li> <!-- Temporary -->
+		</recipeUsers> 
+            <researchPrerequisite>Machining</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <displayPriority>409</displayPriority>   
+			</recipeMaker>
+  </ThingDef>
+</Defs>

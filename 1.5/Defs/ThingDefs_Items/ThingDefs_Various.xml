@@ -25,4 +25,31 @@
       <li>Manufactured</li>
     </thingCategories>
   </ThingDef>
+  
+  <RecipeDef IfModActive="Ludeon.RimWorld.Anomaly">
+  <defName>ArchotechShardPurification</defName>
+  <label>purify shard</label>
+    <description>Purify a Shard into an Archotech Shard</description>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <jobString>Purifying Shard.</jobString>
+	<workAmount>200</workAmount>
+		<recipeUsers>
+		<li>TableMachining</li>
+		</recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
+			<ingredients>
+      <li>
+        <filter>
+		<thingDefs>
+		<li>Shard</li>
+		  </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  </ingredients>
+            <displayPriority>409</displayPriority>
+		<products>
+		<ArchotechShard>1</ArchotechShard>
+		</products>
+    </RecipeDef>
 </Defs>

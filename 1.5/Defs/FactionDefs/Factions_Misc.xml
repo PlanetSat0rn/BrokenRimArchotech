@@ -20,7 +20,7 @@
 	<techLevel>Archotech</techLevel>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>10</configurationListOrderPriority>
-    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <factionIconPath>Archotech/World/ArchotechTown</factionIconPath>
     <xenotypeSet Inherit="False">
       <xenotypeChances>
         <BasicArchopawn>0.98</BasicArchopawn>
@@ -39,7 +39,8 @@
         <kindDef>Combat</kindDef>
         <options>
           <ArchopawnVillager>10</ArchopawnVillager>
-          <ArchopawnGuard>40</ArchopawnGuard>
+          <ArchopawnGuard>20</ArchopawnGuard>
+		  <ArchopawnMeleeSpecialist>6</ArchopawnMeleeSpecialist>
         </options>
       </li>
       <li>

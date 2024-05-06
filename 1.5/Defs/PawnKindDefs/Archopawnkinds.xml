@@ -70,6 +70,25 @@
       </li>
     </backstoryFiltersOverride>
 </PawnKindDef>
+
+<PawnKindDef ParentName="GuardBase">
+    <defName>ArchopawnMeleeSpecialist</defName>
+    <label>archopawn melle specialist</label>
+    <race>Archopawn</race>
+    <defaultFactionType>LostArchotechs</defaultFactionType>
+    <initialResistanceRange>12~20</initialResistanceRange>
+		    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ArchopawnBackstories_General</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+	<weaponTags Inherit="False">
+      <li>ArchotechMelee</li>
+    </weaponTags>
+</PawnKindDef>
+
 <PawnKindDef>
     <defName>ItisPawnKind</defName>
     <label>deathwalker</label>

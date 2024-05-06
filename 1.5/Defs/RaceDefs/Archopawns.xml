@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="Human" Name="ArchopawnBase">
 		<defName>Archopawn</defName>
 		<label>Archopawn</label>
-		<description>A basic Archopawn. More specifically, an archotech machine that looks like a human. They are often Archotechs that got denied from ascension.</description>
+		<description>An Archopawn, they are generally resistant to some forms of damage. They were found in an dead world. They often are Archotechs that were left behind and given physical bodies.</description>
 		    <statBases>
       <MarketValue>6450</MarketValue>
       <MoveSpeed>5</MoveSpeed>
@@ -16,6 +16,18 @@
 	  <ResearchSpeedFactor>3</ResearchSpeedFactor>
 	  <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
     </statBases>
+	<modExtensions>
+      <li MayRequire="bep.littlefairy.wwt" Class="BEPWWT.ModExtension_Protection">
+       <StileProtect>true</StileProtect>
+       <DistruttoreProtect>true</DistruttoreProtect>
+       <MangiareProtect>true</MangiareProtect>
+       <FusioneProtect>true</FusioneProtect>
+       <AccelerazioneProtect>true</AccelerazioneProtect>
+       <DesideriofinaleProtect>true</DesideriofinaleProtect>
+       <ServoProtect>true</ServoProtect>
+       <FascinoProtect>true</FascinoProtect>
+      </li>
+    </modExtensions>
 	<race>
 	
 	<needsRest>false</needsRest>
@@ -95,6 +107,9 @@
                 </blackEndoCategories>
 				<canReproduce>false</canReproduce>
 				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+				<recipeList>
+  <li>ArchotechShardPurification</li>
+</recipeList>
 			</raceRestriction>
 			    <relationSettings>
       <relationChanceModifierLover>0</relationChanceModifierLover>
